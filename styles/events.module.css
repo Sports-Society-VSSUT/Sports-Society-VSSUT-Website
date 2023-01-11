@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.title{
+    position: absolute;
+    width: 79px;
+    height: 36px;
+    left: 88px;
+    top: 125px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #033A62;
+}
+
+.events{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 17px 28px;
+    gap: 104px;
+
+    position: absolute;
+    width: 1372px;
+    height: 265px;
+    left: 26px;
+    top: 206px;
+}
+
+.event{
+    width: 251px;
+    height: 277px;
+    border-radius: 9px;
+    text-align: center;
+    /* Inside auto layout */
+    position: relative;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.event p{
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.football{
+    z-index: -1;
+    position: absolute;
+    width: 251px;
+    height: 197px;    
+    top: 85px;
+    border-radius: 9px;
+    background: #9BD1E3;
+}
+
+.kabaddi{
+    z-index: -1;
+    position: absolute;
+    width: 251px;
+    height: 197px;    
+    top: 85px;
+    border-radius: 9px;
+    background: #D88030;
+}
+
+.cricket{
+    z-index: -1;
+    position: absolute;
+    width: 251px;
+    height: 197px;    
+    top: 85px;
+    border-radius: 9px;
+    background: #388FF5;
+}
+
+.khokho{
+    z-index: -1;
+    position: absolute;
+    width: 251px;
+    height: 197px;    
+    top: 85px;
+    border-radius: 9px;
+    background: #A737C3;
+}
