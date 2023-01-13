@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import React from "react";
 const Navbar1 = () => {
 
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
@@ -34,7 +34,8 @@ const Navbar1 = () => {
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Contact Us</a></li>
-                    <button>Register</button>
+                    <a href="https://forms.gle/NzFfHZHBmtwSzzReA"><button>Register</button></a>
+                    
                 </ul>
             </nav>
             
