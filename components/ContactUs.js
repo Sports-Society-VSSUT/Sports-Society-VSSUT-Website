@@ -20,7 +20,7 @@ const ContactUs = () => {
                     <p>Prof. Bansidhar Majhi</p>
                     <p>Prof. Sanjaya Kumar Patro</p>
                     <p>Mr. Anand Kumar Behera</p>
-                    <p>TBD</p>
+                    <p>Mr. Amit Chatterjee</p>
                     <p>Sambhunath Biswal  (1234567890)</p>
                     <p>Tanmaya Naik  (1234567890)</p>
                     <p>Sourav Panda  (1234567890)</p>
