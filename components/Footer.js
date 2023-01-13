@@ -5,7 +5,7 @@ const Footer = () => {
                 <a href="#"><img src="twitter.png"  />@illumina_vssut</a>
             </div>
             <div className="insta">
-                <a href="#"><img src="insta.png"  />@illumina_vssut</a>
+                <a href="https://www.instagram.com/illumina.vssut/"><img src="insta.png"  />@illumina_vssut</a>
             </div>
         </div>
      );
