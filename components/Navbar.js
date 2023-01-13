@@ -33,9 +33,8 @@ const Navbar1 = () => {
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Events</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <a href="https://forms.gle/NzFfHZHBmtwSzzReA"><button>Register</button></a>
-                    
+                    <li><a href="#">Administration</a></li>
+                    <button>Register</button>
                 </ul>
             </nav>
             

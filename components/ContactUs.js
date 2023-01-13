@@ -3,7 +3,7 @@ import styles from "../styles/contactus.module.css";
 
 const ContactUs = () => {
     return ( 
-        <div className={styles.contactUs} >
+        <div className={styles.contactUs} id="contact-us" >
             <h1 className={styles.title} >Administration</h1>
             <div className={styles.container} >
                 <div className={styles.details} >

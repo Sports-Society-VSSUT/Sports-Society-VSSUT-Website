@@ -1,7 +1,7 @@
 .contactUs{
     position: relative;
     width: 95vw;
-    height: 40vh;
+    height: 70vh;
     background: #FFFFFF;
     border-radius: 14px;
     margin: 0 auto;
@@ -27,7 +27,7 @@
     font-size: 24px;
     line-height: 36px;
     /* position: absolute; */
-    margin-left: 48px;
+    margin-left: 78px;
 }
 
 
