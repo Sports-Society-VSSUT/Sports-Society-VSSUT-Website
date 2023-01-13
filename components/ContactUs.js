@@ -10,6 +10,7 @@ const ContactUs = () => {
                     <p>Vice-Chancellor</p>
                     <p>Dean of Student Welfare</p>
                     <p>Vice President Sports Society</p>
+                    <p>Faculty Advisor Sports Society</p>
                     <p>Coordinator Illumina</p>
                     <p>Coordinator Athletic Club</p>
                     <p>Asst-Coordinator Illumina</p>
@@ -19,6 +20,7 @@ const ContactUs = () => {
                     <p>Prof. Bansidhar Majhi</p>
                     <p>Prof. Sanjaya Kumar Patro</p>
                     <p>Mr. Anand Kumar Behera</p>
+                    <p>TBD</p>
                     <p>Sambhunath Biswal  (1234567890)</p>
                     <p>Tanmaya Naik  (1234567890)</p>
                     <p>Sourav Panda  (1234567890)</p>
