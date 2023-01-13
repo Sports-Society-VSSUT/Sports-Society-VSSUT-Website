@@ -30,7 +30,7 @@ const Navbar1 = () => {
                     <div className={burger_class} ></div>
                 </div>
                 <ul className={menu_class}>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="#about">About Us</a></li>
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#events">Events</a></li>
                     <li><a href="#contact-us">Administration</a></li>
