@@ -2,10 +2,16 @@ import Image from "next/image";
 import styles from "../styles/events.module.css"
 
 const AllEvents = () => {
+
+    const goTop = ()=>{
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
     return ( 
         <>
             
-        <div className={styles.main}>
+        <div className={styles.main} id="events" >
             <h1 className={styles.title}>Events</h1>
             <div className={styles.events} >
                 <div className={styles.event} >
@@ -29,6 +35,7 @@ const AllEvents = () => {
                     <p>Cricket</p>
                 </div>
             </div>
+            <button className={styles.scroll} onClick={goTop} >^</button>
         </div>
         </>
     )
