@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import React from "react";
 const Navbar1 = () => {
 
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
