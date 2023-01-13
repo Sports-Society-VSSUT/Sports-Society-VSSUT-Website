@@ -1,98 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-.title{
-    position: absolute;
-    width: 79px;
-    height: 36px;
-    left: 88px;
-    top: 125px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 36px;
-    /* identical to box height */
-
-
-    color: #033A62;
+.main {
+  width: 90%;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 10px;
+  height: auto;
+  /* overflow: hidden; */
 }
 
-.events{
+.events {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 17px 28px;
+  gap: 104px;
+
+  position: relative;
+  max-width: 100vw;
+}
+
+.event {
+  width: 251px;
+  height: 277px;
+  border-radius: 9px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  position: relative;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #ffffff;
+}
+
+/* .events{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    padding: 17px 28px;
-    gap: 104px;
+    justify-content: space-between;
+    align-items: center;
+    
+} */
 
-    position: absolute;
-    width: 1372px;
-    height: 265px;
-    left: 26px;
-    top: 206px;
+.title {
+  color: #033a62;
+  font-family: "poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
 }
 
-.event{
-    width: 251px;
-    height: 277px;
-    border-radius: 9px;
+/* .event{
     text-align: center;
-    /* Inside auto layout */
-    position: relative;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.event p{
-    margin: 0;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
-    /* identical to box height */
-
-
+    position: relative;
     color: #FFFFFF;
+} */
+
+.event:hover img {
+  -webkit-filter: drop-shadow(10px 10px 10px #666666);
+  filter: drop-shadow(10px 10px 10px #666666);
+  transition: 0.4s;
+  width: 300px;
+  height: 320px;
+  z-index: 6;
 }
 
-.football{
-    z-index: -1;
-    position: absolute;
-    width: 251px;
-    height: 197px;    
-    top: 85px;
-    border-radius: 9px;
-    background: #9BD1E3;
+.event img {
+  -webkit-filter: drop-shadow(5px 5px 5px #666666);
+  filter: drop-shadow(5px 5px 5px #666666);
+  transition: 0.4s;
 }
 
-.kabaddi{
-    z-index: -1;
-    position: absolute;
-    width: 251px;
-    height: 197px;    
-    top: 85px;
-    border-radius: 9px;
-    background: #D88030;
+.event p {
+  margin: 5px;
 }
 
-.cricket{
-    z-index: -1;
-    position: absolute;
-    width: 251px;
-    height: 197px;    
-    top: 85px;
-    border-radius: 9px;
-    background: #388FF5;
+.football {
+  position: absolute;
+  background-color: #9bd1e3;
+  z-index: -1;
+  width: 251px;
+  height: 197px;
+  border-radius: 9px;
+  top: 100px;
 }
 
-.khokho{
-    z-index: -1;
-    position: absolute;
-    width: 251px;
-    height: 197px;    
-    top: 85px;
-    border-radius: 9px;
-    background: #A737C3;
+.kabaddi {
+  position: absolute;
+  background-color: #d88030;
+  z-index: -1;
+  width: 251px;
+  height: 197px;
+  border-radius: 9px;
+  top: 100px;
+}
+
+.khokho {
+  position: absolute;
+  background-color: #a737c3;
+  z-index: -1;
+  width: 251px;
+  height: 197px;
+  border-radius: 9px;
+  top: 100px;
+}
+
+.cricket {
+  position: absolute;
+  background-color: #388ff5;
+  z-index: -1;
+  width: 251px;
+  height: 197px;
+  border-radius: 9px;
+  top: 100px;
+}
+
+.event:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .events {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .event {
+    margin: 0 auto;
+  }
 }
