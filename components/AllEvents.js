@@ -3,7 +3,9 @@ import styles from "../styles/events.module.css"
 
 const AllEvents = () => {
     return ( 
-        <div>
+        <>
+            
+        <div className={styles.main}>
             <h1 className={styles.title}>Events</h1>
             <div className={styles.events} >
                 <div className={styles.event} >
@@ -28,6 +30,7 @@ const AllEvents = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
  
