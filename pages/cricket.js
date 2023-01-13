@@ -17,9 +17,9 @@ const test = () => {
         </div>
       </div>
       <div className={styles.card}>
-        <h1 className={styles.mainHead}>Football</h1>
+        <h1 className={styles.mainHead}>Cricket</h1>
         <div className={styles.card1}>
-          <h1 className={styles.head}>Match-I</h1>
+          <h1 className={styles.head}>Match I</h1>
           <div className={styles.fixturecard}>
             <div className={styles.match}>
               <span className={styles.grp}>Group A</span>
@@ -34,7 +34,7 @@ const test = () => {
               </strong>
             </div>
           </div>
-          <h1 className={styles.head}>Match-II</h1>
+          <h1 className={styles.head}>Match II</h1>
           <div className={styles.fixturecard}>
             <div className={styles.match}>
               <span className={styles.grp}>Group A</span>
@@ -49,7 +49,7 @@ const test = () => {
               </strong>
             </div>
           </div>
-          <h1 className={styles.head}>Match-III</h1>
+          <h1 className={styles.head}>Match III</h1>
           <div className={styles.fixturecard}>
             <div className={styles.match}>
               <span className={styles.grp}>Group A</span>
@@ -64,7 +64,7 @@ const test = () => {
               </strong>
             </div>
           </div>
-          <h1 className={styles.head}>Match-II</h1>
+          <h1 className={styles.head}>Match IV</h1>
           <div className={styles.fixturecard}>
             <div className={styles.match}>
               <span className={styles.grp}>Group A</span>
