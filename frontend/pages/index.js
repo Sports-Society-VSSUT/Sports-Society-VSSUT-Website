@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import AllEvents from '../components/AllEvents'
 import ContactUs from '../components/COntactUs'
 import Hero from '../components/hero'
-
+import Gallery from '../components/Gallery'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -19,6 +19,7 @@ export default function Home() {
       </Head>
       
       <Hero/>
+      <Gallery/>
       <AllEvents/>
       <ContactUs/>  
     </>
