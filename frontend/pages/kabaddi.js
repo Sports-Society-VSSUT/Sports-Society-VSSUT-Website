@@ -9,6 +9,7 @@ const test = () => {
         <title>Sports Society | Kabaddi</title>
       </Head>
       <div className={styles.page}>
+      <h1 className={styles.mainHead}>Kabaddi</h1>
         <div className={styles.scoremain}>
           <span className={styles.live}>Live</span>
           <span className={styles.dot}></span>
@@ -23,7 +24,7 @@ const test = () => {
           </div>
         </div>
         <div className={styles.card}>
-          <h1 className={styles.mainHead}>Kabaddi</h1>
+         
           <div className={styles.card1}>
             <h1 className={styles.head}>Match I</h1>
             <div className={styles.fixturecard}>
