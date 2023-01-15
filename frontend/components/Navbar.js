@@ -32,7 +32,7 @@ const Navbar1 = () => {
                 </div>
                 <ul className={menu_class}>
                     <li><a href="/#about-us">About Us</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
                     <li><a href="/#events">Events</a></li>
                     <li><a href="/#contact-us">Administration</a></li>
                     <button>Register</button>
