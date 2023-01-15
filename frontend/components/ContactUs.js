@@ -20,10 +20,10 @@ const ContactUs = () => {
                     <p>Prof. Bansidhar Majhi</p>
                     <p>Prof. Sanjaya Kumar Patro</p>
                     <p>Mr. Anand Kumar Behera</p>
-                    <p>Mr. Amit Chatterjee</p>
-                    <p>Sambhunath Biswal  (+91 7653896560)</p>
-                    <p>Tanmaya Naik  (+91 7008847192)</p>
-                    <p>Sourav Panda  (+91 9938563152)</p>
+                    <p>TBD</p>
+                    <p>Sambhunath Biswal  (1234567890)</p>
+                    <p>Tanmaya Naik  (1234567890)</p>
+                    <p>Sourav Panda  (1234567890)</p>
                     <p>TBA</p>
                 </div>
                 <Image src="/running.png" width={293} height={293} ></Image>

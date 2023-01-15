@@ -2,7 +2,7 @@ const Footer = () => {
     return ( 
           <div className="footer">
             <div className="insta">
-                <a href="https://www.instagram.com/illumina.vssut/"><img src="insta.png"  />@illumina_vssut</a>
+                <a href="#"><img src="insta.png"  />@illumina_vssut</a>
             </div>  
             <div className="enigma">
                 <p>Developed By: <a href="https://enigmavssut.com/" target="_blank" >Enigma </a> </p>
