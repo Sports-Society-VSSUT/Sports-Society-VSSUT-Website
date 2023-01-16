@@ -2,7 +2,9 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
 const eventRoute = require('./Routes/eventRoute')
+const cors = require('cors')
 
+app.use(cors())
 
 app.use(express.json())
 

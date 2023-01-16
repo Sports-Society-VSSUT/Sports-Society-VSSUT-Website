@@ -1,28 +1,27 @@
-import {useEffect, useState} from 'react'
+import {useState} from 'react'
+import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 
 const Scorecard = () => {
-
+    
     const [teamA, setTeamA] = useState("");
     const [teamB, setTeamB] = useState("");
     const [event, setEvent] = useState("");
     const [scoreA, setScoreA] = useState("");
     const [scoreB, setScoreB] = useState("");
+    
+    const navigate = useNavigate()
+    
+    const location = useLocation()
 
-    useEffect(()=>{
-        const getData = async()=>{
-            const response = await fetch('/api');
-            const json = await response.json()
-            console.log(json[0].event)
-            setEvent(json[0].event)
-        }
-
-        getData()        
-    },[])
-
-    const data = {event, teamA, teamB, scoreA, scoreB}
-
+    
     const handleSubmit = async(e)=>{
         e.preventDefault()    
+        
+        const data = {event, teamA, teamB, scoreA, scoreB}
+        
+        setEvent(location.state.event)
 
         const response = await fetch('/api',{
             method: "PUT",
@@ -35,6 +34,24 @@ const Scorecard = () => {
         if(response.ok){
             console.log("score updated", json);
         }
+    }
+
+    const handleEnd = async(e)=>{
+        e.preventDefault()
+        setEvent(location.state.event)
+
+        const data = {event}
+        const response = await fetch('/api', {
+            method: "DELETE",
+            body: JSON.stringify(data),
+            headers:{
+                "Content-Type": "application/json"
+            }
+        })
+        const json = response.json()
+        console.log("event deleted", json)
+
+        navigate('/')
     }
 
     return ( 
@@ -61,6 +78,7 @@ const Scorecard = () => {
                 <label htmlFor="">House {teamB} score</label>
                 <input type="text" onChange={(e)=>{setScoreB(e.target.value)}} />
                 <button type="submit">Submit</button>
+                <button type="submit" onClick={handleEnd} >End Game</button>
             </form>
         </div>
      );
