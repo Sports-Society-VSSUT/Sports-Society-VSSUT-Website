@@ -11,7 +11,7 @@ const Homepage = () => {
         e.preventDefault()
         const test = {event}
         
-        const response = await fetch('http://localhost:8000/api', {
+        const response = await fetch('https://illumina-live-score-backend.onrender.com/api', {
             method: "POST",
             body: JSON.stringify(test),
             headers:{

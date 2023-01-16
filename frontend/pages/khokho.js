@@ -10,7 +10,7 @@ const test = () => {
 
   useEffect(()=>{
     const getData = async ()=>{
-      const res = await fetch('http://localhost:8000/api')
+      const res = await fetch('https://illumina-live-score-backend.onrender.com/api')
       const json = await res.json()
 
       json.map((data)=>{
