@@ -1,8 +1,29 @@
+import {useState, useEffect} from "react";
 import React from "react";
 import styles from "../styles/test.module.css";
 import Head from "next/head";
 
 const test = () => {
+
+  const [event, setEvent] = useState(0);
+
+  useEffect(()=>{
+    const getData = async ()=>{
+      const res = await fetch('http://localhost:8000/api')
+      const json = await res.json()
+
+      json.map((data)=>{
+        if(data.event === 'football'){
+          setEvent(data);
+          // console.log(event)  
+        }
+      })
+    }
+
+    getData()
+  },[event])
+
+
   return (
     <>
       <Head>
@@ -15,11 +36,14 @@ const test = () => {
           <span className={styles.dot}></span>
           <div className={styles.score}>
             <div className={styles.match}>
-              <span className={styles.grp1}>Group A</span>
-              <span className={styles.crp1}>A</span>
-              <span className={styles.vs1}>0:3</span>
-              <span className={styles.crp1}>B</span>
-              <span className={styles.grp1}>Group B</span>
+             {
+                !event ? <span className={styles.grp1} >No Live Match</span> :
+                <div>
+                  <span className={styles.grp1}>House {event.teamA}</span>
+                  <span className={styles.vs1}> {event.scoreA} : {event.scoreB} </span>
+                  <span className={styles.grp1}>House {event.teamB} </span>
+                </div>
+              }
             </div>
           </div>
         </div>

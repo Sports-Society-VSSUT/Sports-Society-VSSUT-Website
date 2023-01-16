@@ -1,15 +1,17 @@
 import {useState} from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Homepage = () => {
 
     const [event, setEvent] = useState("");
     
+    const navigate = useNavigate()
 
     const handleSubmit = async(e)=>{
         e.preventDefault()
         const test = {event}
         
-        const response = await fetch('/api', {
+        const response = await fetch('http://localhost:8000/api', {
             method: "POST",
             body: JSON.stringify(test),
             headers:{
@@ -19,8 +21,9 @@ const Homepage = () => {
         const json = await response.json();
         if(response.ok){
             console.log("new event added", json)
+            navigate('/score', {state:{event: event}})
         }
-        window.open("http://localhost:3000/score")
+        
     }
 
     return ( 

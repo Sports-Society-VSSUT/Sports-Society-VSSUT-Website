@@ -26,7 +26,7 @@ const ContactUs = () => {
                     <p>Sourav Panda  (9938563152)</p>
                     <p>TBA</p>
                 </div>
-                <Image src="/running.png" width={293} height={293} ></Image>
+                <Image src="/running.png" alt="running" width={293} height={293} ></Image>
             </div> 
         </div>
      );

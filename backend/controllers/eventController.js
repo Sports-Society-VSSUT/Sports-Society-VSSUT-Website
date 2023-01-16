@@ -44,3 +44,11 @@ exports.updateScore = (req, res, next)=>{
     })
     .catch((err)=>{res.json(err)})
 }
+
+exports.deleteEvent = (req,res,next)=>{
+    Events.findOneAndDelete({event: req.body.event})
+        .then(()=>{
+            res.json("Event removed")
+        })
+        .catch((err)=>{console.log(err)})
+}

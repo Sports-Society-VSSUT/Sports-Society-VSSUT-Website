@@ -9,7 +9,7 @@
 }
 
 .mainHead {
-  width: 139px;
+  /* width: 139px; */
   height: 48px;
   font-family: "Poppins";
   font-style: normal;
@@ -151,7 +151,16 @@
   margin-left: 23.4rem;
   margin-top: -1.3rem;
   background: #ff0000;
+  animation: blip 1s linear 2s infinite;
 }
+
+@keyframes blip {
+  0% { opacity: 1; }
+  25% { opacity: 0.75; }
+  50% { opacity: 0.5; }
+  100% { opacity: 0; }
+}
+
 .grp1 {
   font-family: "Poppins";
   font-style: normal;
