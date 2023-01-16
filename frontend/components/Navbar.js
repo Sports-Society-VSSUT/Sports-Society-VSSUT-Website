@@ -23,7 +23,7 @@ const Navbar1 = () => {
         <>
             <nav>
                 <div className="logo">
-                    <Link href="/"><img src="vssut.png"  />SPORTS SOCIETY</Link>
+                    <Link href="/"><img src="vssut.png" alt="vssut logo" />SPORTS SOCIETY</Link>
                 </div>
                 <div className="burger-menu" onClick={updateMenu} >
                     <div className={burger_class} ></div>

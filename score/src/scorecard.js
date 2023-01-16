@@ -23,7 +23,7 @@ const Scorecard = () => {
         
         setEvent(location.state.event)
 
-        const response = await fetch('/api',{
+        const response = await fetch('http://localhost:8000/api',{
             method: "PUT",
             body: JSON.stringify(data),
             headers: {
@@ -41,7 +41,7 @@ const Scorecard = () => {
         setEvent(location.state.event)
 
         const data = {event}
-        const response = await fetch('/api', {
+        const response = await fetch('http://localhost:8000/api', {
             method: "DELETE",
             body: JSON.stringify(data),
             headers:{

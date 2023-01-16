@@ -11,7 +11,7 @@ const Homepage = () => {
         e.preventDefault()
         const test = {event}
         
-        const response = await fetch('/api', {
+        const response = await fetch('http://localhost:8000/api', {
             method: "POST",
             body: JSON.stringify(test),
             headers:{

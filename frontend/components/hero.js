@@ -8,7 +8,7 @@ const Hero = () => {
     <h3>A trophy carries dust. Memories last forever</h3>
     <p>Illumina sports fest of VSSUT</p>
     </div>
-   <img src="/bck.png" alt="" />
+   <img src="/bck.png" alt="background image" />
    </div>
 
    <div className={styles.about} id="about-us" >
