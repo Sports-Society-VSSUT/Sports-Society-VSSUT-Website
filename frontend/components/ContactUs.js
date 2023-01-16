@@ -22,7 +22,7 @@ const ContactUs = () => {
                     <p>Mr. Anand Kumar Behera</p>
                     <p>Mr. Amit Chatterjee</p>
                     <p>Sambhunath Biswal  (7653896560)</p>
-                    <p>Tanmaya Naik  (7008847192)</p>
+                    <p>Tanmaya Kumar Swain  (7008847192)</p>
                     <p>Sourav Panda  (9938563152)</p>
                     <p>TBA</p>
                 </div>
