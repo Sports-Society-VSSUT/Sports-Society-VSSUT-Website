@@ -12,19 +12,67 @@ export default class NextJsCarousel extends Component {
                 
               <Carousel>
                   <div>
-                      <img src="/ecel.jpg" alt="image1"/>
+                      <img src="/1.1.jpg" alt="image1"/>
                   </div>
                   <div>
-                      <img src="/engm.jpg" alt="image2" />
+                      <img src="/1.2.jpg" alt="image2" />
                   </div>
                   <div>
-                      <img src="/robo.jpg" alt="image3"/>
+                      <img src="/1.3.jpg" alt="image3"/>
                   </div>
                   <div>
-                      <img src="/vib.jpg" alt="image4"/> 
+                      <img src="/1.4.jpg" alt="image4"/> 
                   </div>
                   <div>
-                      <img src="/space.jpg" alt="image5"/>
+                      <img src="/1.5.jpg" alt="image5"/>
+                  </div>
+                  <div>
+                      <img src="/1.6.jpg" alt="image6"/>
+                  </div>
+                  <div>
+                      <img src="/1.7.jpg" alt="image7" />
+                  </div>
+                  <div>
+                      <img src="/1.8.jpg" alt="image8"/>
+                  </div>
+                  <div>
+                      <img src="/1.9.jpg" alt="image9"/> 
+                  </div>
+                  <div>
+                      <img src="/2.1.jpg" alt="image10"/>
+                  </div>
+                  <div>
+                      <img src="/2.2.jpg" alt="image11"/>
+                  </div>
+                  <div>
+                      <img src="/2.3.jpg" alt="image12" />
+                  </div>
+                  <div>
+                      <img src="/2.4.jpg" alt="image13"/>
+                  </div>
+                  <div>
+                      <img src="/2.5.jpg" alt="image14"/> 
+                  </div>
+                  <div>
+                      <img src="/2.6.jpg" alt="image15"/>
+                  </div>
+                  <div>
+                      <img src="/2.7.jpg" alt="image16"/>
+                  </div>
+                  <div>
+                      <img src="/2.8.jpg" alt="image17" />
+                  </div>
+                  <div>
+                      <img src="/2.9.jpg" alt="image18"/>
+                  </div>
+                  <div>
+                      <img src="/3.1.jpg" alt="image19"/> 
+                  </div>
+                  <div>
+                      <img src="/3.3.jpg" alt="image20"/>
+                  </div>
+                  <div>
+                      <img src="/3.4.jpg" alt="image21"/>
                   </div>
               </Carousel>
             </div>
