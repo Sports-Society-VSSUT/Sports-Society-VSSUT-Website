@@ -68,6 +68,39 @@
     transition: 0.3s linear;
     transform: scale(1.01);
 }
+
+@media screen and (max-width: 1000px){
+
+    .about{
+        padding: 18px;
+    }
+
+    .main h3{
+        font-size: 45px;
+    }
+
+    .main img{
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .about{
+        padding: 18px;
+    }
+
+    .main h3{
+        font-size: 35px;
+    }
+
+    .main img{
+        width: 300px;
+        height: auto;
+    }
+}
+
 @media screen and (max-width:480px) {
     .main{
         flex-direction: column;
@@ -98,3 +131,4 @@
         font-size: 10px;
     }
 }
+
