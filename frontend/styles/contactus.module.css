@@ -1,7 +1,7 @@
 .contactUs{
     position: relative;
     width: 95vw;
-    height: 70vh;
+    height: auto;
     background: #FFFFFF;
     border-radius: 14px;
     margin: 0 auto;
@@ -48,6 +48,21 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+@media screen and (max-width: 800px){
+
+    .details p{
+        font-size: 15px;
+    }
+
+    .container img{
+        display: none;
+    }
+
+    .title{
+        margin-left: 40px;
+    }
 }
 
 @media screen and (max-width: 480px) {
