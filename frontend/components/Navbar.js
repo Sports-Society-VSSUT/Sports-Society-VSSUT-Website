@@ -35,7 +35,7 @@ const Navbar1 = () => {
                     <li><a href="/#gallery">Gallery</a></li>
                     <li><a href="/#events">Events</a></li>
                     <li><a href="/#contact-us">Administration</a></li>
-                    <button>Register</button>
+                    <a href="https://forms.gle/pk7etV7SgoHPJQ516" target="_blank" ><button>Register</button></a>
                 </ul>
             </nav>
             
