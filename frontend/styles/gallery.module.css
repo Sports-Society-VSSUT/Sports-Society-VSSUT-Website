@@ -17,8 +17,38 @@
     font-weight: 500;
     font-size: 24px;
 }
+
+@media screen and (max-width: 1200px) {
+    .gallery{
+        max-width: 500px;
+    }
+    
+    .box{
+        max-width: 95vw;
+    }
+
+    .gallery img{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery{
+        max-width: 350px;
+    }
+    .gallery img{
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .gallery{
         max-width: 250px;
+    }
+    .box h2{
+        margin-left: 10px;
+    }
+    .gallery img{
+        height: auto;
     }
 }
