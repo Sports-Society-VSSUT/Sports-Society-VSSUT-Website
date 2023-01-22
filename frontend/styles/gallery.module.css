@@ -42,6 +42,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    .box{
+        max-width: 85vw;
+    }
+
     .gallery{
         max-width: 250px;
     }

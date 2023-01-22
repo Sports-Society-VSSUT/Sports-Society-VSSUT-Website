@@ -89,6 +89,10 @@
 
 @media screen and (max-width: 480px) {
 
+    .contactUs{
+        max-width: 85vw;
+    }
+
     .details p{
         font-size: 8px;
     }
