@@ -72,6 +72,10 @@
 
 @media screen and (max-width: 1200px){
 
+    .main{
+        max-width: 95vw;
+    }
+
     .about{
         max-width: 95vw;
         margin-top: 50px;
