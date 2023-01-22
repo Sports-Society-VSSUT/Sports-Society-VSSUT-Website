@@ -10,7 +10,7 @@ export default class NextJsCarousel extends Component {
                   <h2>Gallery</h2>
             <div className={styles.gallery}>
                 
-              <Carousel showIndicators = {false}>
+              <Carousel showIndicators = {false} autoPlay interval="3000">
                   <div>
                       <img src="/1.1.jpg" alt="image1"/>
                   </div>
