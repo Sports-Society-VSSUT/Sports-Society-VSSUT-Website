@@ -45,13 +45,13 @@
     letter-spacing: 1px;
 }
 .text{
-    height: 40vh;
+    height: auto;
 }
 .illumina,.yoga{
     margin: 50px auto;
     padding: 15px; 
     transition: 0.3s linear;
-    border: 2px solid black;
+    border: 2px solid rgb(172, 166, 166);
     border-radius: 5px;
 }
 .illumina button,.yoga button{
@@ -74,6 +74,7 @@
 
     .main{
         max-width: 95vw;
+        height: auto;
     }
 
     .about{
