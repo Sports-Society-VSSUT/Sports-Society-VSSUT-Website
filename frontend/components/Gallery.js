@@ -14,68 +14,68 @@ export default class NextJsCarousel extends Component {
                 
               <Carousel showIndicators = {false} showThumbs = {false} autoPlay interval="3000" infiniteLoop>
                   <div>
-                      <Image width={500} height={350} src="/1.1-min.jpg" alt="image1"/>
+                      <Image width={500} height={350} src="/il1.jpg" alt="image1"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/1.2-min.jpg" alt="image2" />
+                      <Image width={500} height={350} src="/il7.jpg" alt="image2" />
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/1.3-min.jpg" alt="image3"/>
+                      <Image width={500} height={350} src="/il13.jpg" alt="image3"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/1.4-min.jpg" alt="image4"/> 
+                      <Image width={500} height={350} src="/il15.jpg" alt="image4"/> 
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/1.5-min.jpg" alt="image5"/>
+                      <Image width={500} height={350} src="/il16.jpg" alt="image5"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/1.6-min.jpg" alt="image6"/>
+                      <Image width={500} height={350} src="/il20.jpg" alt="image6"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/1.7-min.jpg" alt="image7" />
+                      <Image width={500} height={350} src="/il19.jpg" alt="image7" />
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/1.8-min.jpg" alt="image8"/>
+                      <Image width={500} height={350} src="/il12.jpg" alt="image8"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/1.9-min.jpg" alt="image9"/> 
+                      <Image width={500} height={350} src="/il11.jpg" alt="image9"/> 
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/2.1-min.jpg" alt="image10"/>
+                      <Image width={500} height={350} src="/il10.jpg" alt="image10"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/2.2-min.jpg" alt="image11"/>
+                      <Image width={500} height={350} src="/il9.jpg" alt="image11"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/2.3-min.jpg" alt="image12" />
+                      <Image width={500} height={350} src="/i;8.jpg" alt="image12" />
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/2.4-min.jpg" alt="image13"/>
+                      <Image width={500} height={350} src="/il6.jpg" alt="image13"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/2.5-min.jpg" alt="image14"/> 
+                      <Image width={500} height={350} src="/il5.jpg" alt="image14"/> 
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/2.6-min.jpg" alt="image15"/>
+                      <Image width={500} height={350} src="/il4.jpg" alt="image15"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/2.7-min.jpg" alt="image16"/>
+                      <Image width={500} height={350} src="/ill17.jpg" alt="image16"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/2.8-min.jpg" alt="image17" />
+                      <Image width={500} height={350} src="/il2.jpg" alt="image17" />
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/2.9-min.jpg" alt="image18"/>
+                      <Image width={500} height={350} src="/il14.jpg" alt="image18"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/3.1-min.jpg" alt="image19"/> 
+                      <Image width={500} height={350} src="/il18.jpg" alt="image19"/> 
                   </div>
-                  <div>
+                  {/* <div>
                       <Image width={500} height={350} src="/3.3-min.jpg" alt="image20"/>
                   </div>
                   <div>
                       <Image width={500} height={350} src="/3.4-min.jpg" alt="image21"/>
-                  </div>
+                  </div> */}
               </Carousel>
             </div>
             </div>
