@@ -59,7 +59,7 @@ export default class NextJsCarousel extends Component {
                       <Image width={500} height={350} src="/il4.jpg" alt="image15"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/il17.jpg" alt="image16"/>
+                      <Image width={500} height={350} src="/ill17.jpg" alt="image16"/>
                   </div>
                   <div>
                       <Image width={500} height={350} src="/il2.jpg" alt="image17" />
