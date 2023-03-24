@@ -24,7 +24,7 @@ const ContactUs = () => {
                     <p>Sambhunath Biswal  (7653896560)</p>
                     <p>Tanmaya Kumar Swain  (7008847192)</p>
                     <p>Sourav Panda  (9938563152)</p>
-                    <p>TBA</p>
+                    <p>Venkenteswar Rana (7077516077)</p>
                 </div>
                 <Image src="/running.png" alt="running" width={293} height={293} ></Image>
             </div> 
