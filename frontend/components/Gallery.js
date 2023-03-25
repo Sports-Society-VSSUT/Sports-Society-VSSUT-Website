@@ -59,16 +59,85 @@ export default class NextJsCarousel extends Component {
                       <Image width={500} height={350} src="/il4.jpg" alt="image15"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/ill17.jpg" alt="image16"/>
+                      <Image width={500} height={350} src="/_DSC0225-1.jpg" alt="image16"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/il2.jpg" alt="image17" />
+                      <Image width={500} height={350} src="/ill17.jpg" alt="image17"/>
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/il14.jpg" alt="image18"/>
+                      <Image width={500} height={350} src="/il2.jpg" alt="image18" />
                   </div>
                   <div>
-                      <Image width={500} height={350} src="/il18.jpg" alt="image19"/> 
+                      <Image width={500} height={350} src="/il14.jpg" alt="image19"/>
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/il18.jpg" alt="image20"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/4-1.jpg" alt="image21"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/12.jpg" alt="image22"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/54.jpg" alt="image23"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/102.jpg" alt="image24"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/104.jpg" alt="image25"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/111.jpg" alt="image26"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/1676643483087.jpg" alt="image27"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/1676643483102.jpg" alt="image28"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/1676643484649.jpg" alt="image29"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/1676732042488.jpg" alt="image30"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/d1sh (7).jpg" alt="image31"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/d1sh (162).jpg" alt="image31"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/hj(13).jpg" alt="image32"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/hj(22).jpg" alt="image33"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/j (32).jpg" alt="image34"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/kkk (231).jpg" alt="image35"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/kkk (272).jpg" alt="image35"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/relay (74)-1.jpg" alt="image36"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/SP01.jpg" alt="image37"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/TEv (79).jpg" alt="image38"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/TEv (108).jpg" alt="image39"/> 
+                  </div>
+                  <div>
+                      <Image width={500} height={350} src="/TEv (169)-01.jpg" alt="image40"/> 
                   </div>
                   {/* <div>
                       <Image width={500} height={350} src="/3.3-min.jpg" alt="image20"/>
