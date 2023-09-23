@@ -1,27 +1,30 @@
+"use client"
 import {useState, useEffect} from "react";
 import React from "react";
 import styles from "../styles/test.module.css";
 import Head from "next/head";
+import io from "socket.io-client";
 
 const test = () => {
 
-  const [event, setEvent] = useState(0);
+  const [event, setEvent] = useState(null);
 
   useEffect(()=>{
-    const getData = async ()=>{
-      const res = await fetch('https://illumina-live-score-backend.onrender.com/api')
-      const json = await res.json()
+    
+    const socket = io("https://illumina-live-score-backend.onrender.com/")
+    socket.on('connection-done', ()=>{
+      console.log("connected to the main frontend")
+    })
+    
+    socket.on("live-score", (data)=>{
+      //console.log(data)
+      data.event === 'cricket' ? setEvent(data) : setEvent(null)
+    })
 
-      json.map((data)=>{
-        if(data.event === 'cricket'){
-          setEvent(data);
-          // console.log(event)  
-        }
-      })
-    }
-
-    getData()
-  },[event])
+    socket.on("close score", ()=>{
+      setEvent(null)
+    })
+  },[])
 
 
   return (

@@ -1,7 +1,7 @@
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 import { useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-
+import { io } from "socket.io-client";
 
 const Scorecard = () => {
     
@@ -10,47 +10,37 @@ const Scorecard = () => {
     const [event, setEvent] = useState("");
     const [scoreA, setScoreA] = useState("");
     const [scoreB, setScoreB] = useState("");
+    const [socket, setSocket] = useState(null);
     
     const navigate = useNavigate()
-    
     const location = useLocation()
 
-    
+    useEffect(()=>{
+        const socketInstance = io("https://illumina-live-score-backend.onrender.com/")
+        
+        setSocket(socketInstance)
+        
+        socketInstance.on('connection-done', ()=>{
+            console.log("connected")
+        })
+        
+        //socketInstance.on("live-score", (data)=>{console.log("backend received", data)})
+        
+        setEvent(location.state.event)
+    },[])
+
     const handleSubmit = async(e)=>{
-        e.preventDefault()    
+            
+        e.preventDefault()
         
         const data = {event, teamA, teamB, scoreA, scoreB}
         
-        setEvent(location.state.event)
-
-        const response = await fetch('https://illumina-live-score-backend.onrender.com/api',{
-            method: "PUT",
-            body: JSON.stringify(data),
-            headers: {
-                "Content-Type": "application/json"
-            }
-        })
-        const json = await response.json();
-        if(response.ok){
-            console.log("score updated", json);
-        }
+        socket.emit("update score", data)
     }
 
     const handleEnd = async(e)=>{
         e.preventDefault()
-        setEvent(location.state.event)
-
-        const data = {event}
-        const response = await fetch('https://illumina-live-score-backend.onrender.com/api', {
-            method: "DELETE",
-            body: JSON.stringify(data),
-            headers:{
-                "Content-Type": "application/json"
-            }
-        })
-        const json = response.json()
-        console.log("event deleted", json)
-
+        socket.emit('end game');
         navigate('/')
     }
 
